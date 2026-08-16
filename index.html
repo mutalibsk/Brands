@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BRANDS — Modern Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header class="navbar">
+    <a href="index.html" class="logo">BRANDS<span>.</span></a>
+
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="#categories">Categories</a>
+      <a href="#products">Products</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <button id="themeBtn" class="icon-btn">☾</button>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="hero-content">
+        <p class="tag">NEW COLLECTION 2026</p>
+
+        <h1>Discover your<br><span>next favorite.</span></h1>
+
+        <p class="hero-text">
+          Modern products. Clean design. Amazing experiences.
+        </p>
+
+        <a href="#products" class="primary-btn">Shop Now →</a>
+      </div>
+
+      <div class="hero-card">
+        <div class="circle"></div>
+        <div class="product-shape">✦</div>
+      </div>
+    </section>
+
+    <section id="categories" class="section">
+      <div class="section-heading">
+        <div>
+          <p class="tag">EXPLORE</p>
+          <h2>Shop by category</h2>
+        </div>
+      </div>
+
+      <div class="category-grid">
+        <a href="#products" class="category-card">
+          <span>⌁</span>
+          <h3>Fashion</h3>
+          <p>Modern styles</p>
+        </a>
+
+        <a href="#products" class="category-card">
+          <span>◈</span>
+          <h3>Electronics</h3>
+          <p>Smart technology</p>
+        </a>
+
+        <a href="#products" class="category-card">
+          <span>◇</span>
+          <h3>Accessories</h3>
+          <p>Complete your look</p>
+        </a>
+
+        <a href="#products" class="category-card">
+          <span>✦</span>
+          <h3>Featured</h3>
+          <p>Trending products</p>
+        </a>
+      </div>
+    </section>
+
+    <section id="products" class="section">
+      <div class="section-heading">
+        <div>
+          <p class="tag">TRENDING NOW</p>
+          <h2>Featured products</h2>
+        </div>
+
+        <input
+          type="search"
+          id="searchBox"
+          placeholder="Search products..."
+        >
+      </div>
+
+      <div class="product-grid">
+
+        <article class="product-card" data-name="Premium Headphones">
+          <div class="product-image">🎧</div>
+          <div class="product-info">
+            <p>Electronics</p>
+            <h3>Premium Headphones</h3>
+            <strong>₹2,999</strong>
+            <button class="add-btn">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-name="Smart Watch">
+          <div class="product-image">⌚</div>
+          <div class="product-info">
+            <p>Electronics</p>
+            <h3>Smart Watch</h3>
+            <strong>₹3,499</strong>
+            <button class="add-btn">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-name="Urban Sneakers">
+          <div class="product-image">👟</div>
+          <div class="product-info">
+            <p>Fashion</p>
+            <h3>Urban Sneakers</h3>
+            <strong>₹2,499</strong>
+            <button class="add-btn">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="product-card" data-name="Classic Backpack">
+          <div class="product-image">🎒</div>
+          <div class="product-info">
+            <p>Accessories</p>
+            <h3>Classic Backpack</h3>
+            <strong>₹1,799</strong>
+            <button class="add-btn">Add to Cart</button>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="logo">BRANDS<span>.</span></div>
+    <p>© 2026 BRANDS. All rights reserved.</p>
+  </footer>
+
+  <div id="toast"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

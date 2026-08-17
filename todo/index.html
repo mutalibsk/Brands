@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo App — Productivity Task Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="todo-wrapper">
+      
+      <!-- Header -->
+      <div class="header">
+        <div class="header-content">
+          <h1>✓ TodoMaster</h1>
+          <p>Stay organized and productive</p>
+        </div>
+        <div class="header-controls">
+          <button id="themeBtn" class="icon-btn" title="Toggle theme">����</button>
+          <button id="clearBtn" class="icon-btn danger" title="Clear all tasks">🗑️</button>
+        </div>
+      </div>
+
+      <!-- Input Section -->
+      <div class="input-section">
+        <div class="input-group">
+          <input 
+            type="text" 
+            id="todoInput" 
+            placeholder="Add a new task..."
+            autocomplete="off"
+          >
+          <button id="addBtn" class="add-btn">Add Task</button>
+        </div>
+        <div class="priority-selector">
+          <label>Priority:</label>
+          <select id="prioritySelect">
+            <option value="low">Low</option>
+            <option value="medium" selected>Medium</option>
+            <option value="high">High</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Stats Bar -->
+      <div class="stats-bar">
+        <div class="stat">
+          <span class="stat-label">Total Tasks:</span>
+          <span class="stat-value" id="totalTasks">0</span>
+        </div>
+        <div class="stat">
+          <span class="stat-label">Completed:</span>
+          <span class="stat-value completed" id="completedTasks">0</span>
+        </div>
+        <div class="stat">
+          <span class="stat-label">Remaining:</span>
+          <span class="stat-value pending" id="remainingTasks">0</span>
+        </div>
+      </div>
+
+      <!-- Filter & Sort -->
+      <div class="filter-section">
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="active">Active</button>
+          <button class="filter-btn" data-filter="completed">Completed</button>
+          <button class="filter-btn" data-filter="high">High Priority</button>
+        </div>
+        <select id="sortSelect" class="sort-select">
+          <option value="newest">Newest First</option>
+          <option value="oldest">Oldest First</option>
+          <option value="priority">Priority</option>
+          <option value="name">Name (A-Z)</option>
+        </select>
+      </div>
+
+      <!-- Todo List -->
+      <div class="todo-list" id="todoList">
+        <div class="empty-state">
+          <span class="empty-icon">📝</span>
+          <p>No tasks yet. Add one to get started!</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

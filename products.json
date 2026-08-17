@@ -1,0 +1,92 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Premium Headphones",
+      "category": "Electronics",
+      "price": 2999,
+      "emoji": "🎧",
+      "rating": 4.8,
+      "reviews": 245,
+      "description": "High-quality noise-canceling headphones with 30-hour battery life",
+      "inStock": true
+    },
+    {
+      "id": 2,
+      "name": "Smart Watch",
+      "category": "Electronics",
+      "price": 3499,
+      "emoji": "⌚",
+      "rating": 4.6,
+      "reviews": 182,
+      "description": "Advanced fitness tracking with heart rate monitor and GPS",
+      "inStock": true
+    },
+    {
+      "id": 3,
+      "name": "Urban Sneakers",
+      "category": "Fashion",
+      "price": 2499,
+      "emoji": "👟",
+      "rating": 4.7,
+      "reviews": 312,
+      "description": "Comfortable and stylish sneakers for everyday wear",
+      "inStock": true
+    },
+    {
+      "id": 4,
+      "name": "Classic Backpack",
+      "category": "Accessories",
+      "price": 1799,
+      "emoji": "🎒",
+      "rating": 4.5,
+      "reviews": 156,
+      "description": "Durable backpack with multiple compartments and USB charging port",
+      "inStock": true
+    },
+    {
+      "id": 5,
+      "name": "Wireless Speaker",
+      "category": "Electronics",
+      "price": 1599,
+      "emoji": "🔊",
+      "rating": 4.4,
+      "reviews": 98,
+      "description": "Portable speaker with 12-hour battery and 360° sound",
+      "inStock": true
+    },
+    {
+      "id": 6,
+      "name": "Phone Stand",
+      "category": "Accessories",
+      "price": 499,
+      "emoji": "📱",
+      "rating": 4.3,
+      "reviews": 78,
+      "description": "Adjustable phone stand for desk and table",
+      "inStock": true
+    },
+    {
+      "id": 7,
+      "name": "Sunglasses",
+      "category": "Fashion",
+      "price": 2199,
+      "emoji": "😎",
+      "rating": 4.6,
+      "reviews": 203,
+      "description": "UV-protected sunglasses with premium lens quality",
+      "inStock": true
+    },
+    {
+      "id": 8,
+      "name": "Travel Pillow",
+      "category": "Accessories",
+      "price": 799,
+      "emoji": "🛏️",
+      "rating": 4.5,
+      "reviews": 145,
+      "description": "Memory foam travel pillow for neck support",
+      "inStock": true
+    }
+  ]
+}
